@@ -4,9 +4,9 @@
 
 [SwayWM](https://swaywm.org/)
 
-[Unix P*rn](https://unixporn.github.io/)
+[Unix P*rn - it's SFW](https://unixporn.github.io/)
 
-[Oh my ZSH](https://ohmyz.sh/)
+[Oh My ZSH](https://ohmyz.sh/)
 
 [Tmux](https://github.com/tmux/tmux/wiki)
 
