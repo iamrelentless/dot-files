@@ -1,5 +1,4 @@
 call plug#begin()
- Plug 'dracula/vim'
  Plug 'ryanoasis/vim-devicons'
  Plug 'SirVer/ultisnips'
  Plug 'honza/vim-snippets'
@@ -30,22 +29,15 @@ set clipboard=unnamedplus   " using system clipboard
 filetype plugin on
 set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
+
 " set spell                 " enable spell check (may need to download language package)
 " set noswapfile            " disable creating swap file
 " set backupdir=~/.cache/vim " Directory to store backup files.
 
-"“ color schemes
-" if (has(“termguicolors”))
-" set termguicolors
-" endif
-" syntax enable
-" “ colorscheme evening
-
 set splitright
 set splitbelow
 
-
-" Press i to enter insert mode, and ii to exit insert mode.
+" Press j to enter insert mode, and jj to exit insert mode.
 :inoremap jj <Esc>
 :inoremap jk <Esc>
 :inoremap kj <Esc>
