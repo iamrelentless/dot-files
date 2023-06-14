@@ -83,9 +83,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+#   export EDITOR='nvim'
 # else
-#   export EDITOR='mvim'
+#   export EDITOR='vim'
 # fi
 
 # Compilation flags
@@ -101,14 +101,20 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-
 ####### my config #######
-# nvm 
+# using NVM => Node Version Manageer
+# https://github.com/nvm-sh/nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-source ~/.antigen.zsh #when using with *nix and antigen is package is not installed
+ 
+# when using with linux and using antigen leave line below uncommented 
+# vist https://github.com/zsh-users/antigen.git for more info 
+source ~/.antigen.zsh 
+## If using MacOS and using brew to install antigen and autosuggetions
+## uncomment both lines below 
+# source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /opt/homebrew/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
