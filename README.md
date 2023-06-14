@@ -18,7 +18,7 @@ Set files in
 
     $USER/.config/nvim
 
-    cp nvim ~/$USER/.config/nvim  #assuming the directy was created. Do the same for the rest
+    cp nvim ~/$USER/.config/nvim  #assuming the directory was created. Do the same for the rest
 
 ## SwayWM
 
