@@ -16,18 +16,18 @@
 
 Set files in 
 
-$USER/.config/nvim
+    $USER/.config/nvim
 
-  cp nvim ~/$USER/.config/nvim  #assuming the directy was created. Do the same for the rest
+    cp nvim ~/$USER/.config/nvim  #assuming the directy was created. Do the same for the rest
 
 ## SwayWM
 
 SwayWM uses Wayland and it does not support nVidia graphics. Use [i3 Window Manager](https://i3wm.org/)
 
-  $USER/.config/sway
+    $USER/.config/sway
 
 ## ZSH
 
 Set in 
 
-  $USER/.zshrc
+    $USER/.zshrc
