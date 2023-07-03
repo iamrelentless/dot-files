@@ -1,0 +1,9 @@
+nmap
+wget
+yt-dlp
+ffmpeg
+ranger
+tmux
+neovim
+wireguard-go
+

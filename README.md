@@ -2,9 +2,20 @@
 
 ## Notes
 
-Most files are basic and require little attention. Although the vim config could use some tweaking.
-Reasoning for this is speed and mental overhead especially when setting up an environment that requires 
-portability.
+- Combined Keyboard-Layout Repo. 
+
+- Added cask files for use with brew.sh.
+
+run the txt files with the brew command
+
+    brew install $(<"packages.txt")
+
+- 50-zsa.rules only for zsa keyboards
+
+- qwerty.txt for kinesis keyboards.
+
+- vim, zsh and tmux all work with WSL2 as long as their packages
+    are installed.
 
 ## Applications
 
@@ -22,7 +33,7 @@ portability.
 
 [Ranger File Manager](https://github.com/ranger/ranger)
 
-    - Ranger is useful when bulk editing files and traversing through directories. 
+    - Ranger is useful when bulk editing files and traversing through directories.
 
 ## SwayWM
 
@@ -37,6 +48,8 @@ Set in
     ~/.zshrc
 
 ## OhMyZSH
+
+[12 Best omz themes]([Title](https://travis.media/top-12-oh-my-zsh-themes-for-productive-developers/))
 
 [OhMyZSH website and installation ](https://ohmyz.sh/)
 
@@ -65,4 +78,3 @@ Set files in
 [Tmux](https://github.com/tmux/tmux/wiki)
 
 Added mouse scroll ability to config file
-

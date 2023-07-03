@@ -1,0 +1,15 @@
+thunderbird
+vlc
+obs
+firefox
+keepassxc
+discord
+transmission
+adguard
+brave-browser
+mullvadvpn
+private-internet-access
+clion
+pycharm
+intellij-idea-ultimate
+

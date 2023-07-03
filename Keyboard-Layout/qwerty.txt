@@ -1,0 +1,5 @@
+[escape]>[caps]
+[caps]>[escape]
+[;]>[;][t&h200][ralt]
+[']>['][t&h200][lwin]
+[end]>[end][t&h200][lwin]
